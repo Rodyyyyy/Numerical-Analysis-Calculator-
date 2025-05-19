@@ -1,0 +1,82 @@
+.root {
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.sidebar-button {
+    -fx-background-color: #3498DB;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-background-radius: 8px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 2);
+}
+
+.sidebar-button:hover {
+    -fx-background-color: #2980B9;
+}
+
+.method-button {
+    -fx-background-color: #1ABC9C;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-background-radius: 8px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 2);
+}
+
+.method-button:hover {
+    -fx-background-color: #16A085;
+}
+
+.content-panel {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 5);
+}
+
+.input-box {
+    -fx-background-color: #F5F7FA;
+    -fx-background-radius: 8px;
+    -fx-padding: 15px;
+}
+
+.input-field {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #3498DB;
+    -fx-border-radius: 5px;
+    -fx-padding: 8px;
+    -fx-font-size: 14px;
+}
+
+.output-area {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #3498DB;
+    -fx-border-radius: 5px;
+    -fx-padding: 8px;
+    -fx-font-size: 14px;
+    -fx-font-family: 'Consolas', monospace;
+}
+
+.panel-header {
+    -fx-text-fill: #2C3E50;
+    -fx-font-weight: bold;
+}
+
+.input-label {
+    -fx-text-fill: #2C3E50;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.welcome-label {
+    -fx-text-fill: #2C3E50;
+    -fx-font-size: 18px;
+}
+
+.theme-toggle {
+    -fx-background-color: #3498DB;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-padding: 5px 10px;
+    -fx-background-radius: 5px;
+}
